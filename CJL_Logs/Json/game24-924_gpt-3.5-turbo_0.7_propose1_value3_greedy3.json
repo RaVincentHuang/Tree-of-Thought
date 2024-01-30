@@ -1,0 +1,459 @@
+{
+    "nodes": {
+        "6 7 8 11": {
+            "node_id": "n1533",
+            "value": "",
+            "parent": "null",
+            "step": 0
+        },
+        "6 + 7 = 13 (left: 8 11 13)\n": {
+            "node_id": "n1534",
+            "parent": "6 7 8 11",
+            "step": 1,
+            "last_formula": "6 + 7 = 13 (left: 8 11 13)",
+            "operator": "+",
+            "value": 0.003
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n": {
+            "node_id": "n1535",
+            "parent": "6 7 8 11",
+            "step": 1,
+            "last_formula": "7 + 8 = 15 (left: 6 11 15)",
+            "operator": "+",
+            "value": 40.001
+        },
+        "11 - 6 = 5 (left: 5 7 8)\n": {
+            "node_id": "n1536",
+            "parent": "6 7 8 11",
+            "step": 1,
+            "last_formula": "11 - 6 = 5 (left: 5 7 8)",
+            "operator": "-",
+            "value": 3.0
+        },
+        "6 * 7 = 42 (left: 8 11 42)\n": {
+            "node_id": "n1537",
+            "parent": "6 7 8 11",
+            "step": 1,
+            "last_formula": "6 * 7 = 42 (left: 8 11 42)",
+            "operator": "*",
+            "value": 0.003
+        },
+        "8 + 7 = 15 (left: 6 11 15)\n": {
+            "node_id": "n1538",
+            "parent": "6 7 8 11",
+            "step": 1,
+            "last_formula": "8 + 7 = 15 (left: 6 11 15)",
+            "operator": "+",
+            "value": 40.001
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n": {
+            "node_id": "n1539",
+            "parent": "6 7 8 11",
+            "step": 1,
+            "last_formula": "11 - 7 = 4 (left: 4 6 8)",
+            "operator": "-",
+            "value": 60.0
+        },
+        "6 / 7 = 0.857 (left: 0.857 8 11)\n": {
+            "node_id": "n1540",
+            "parent": "6 7 8 11",
+            "step": 1,
+            "last_formula": "6 / 7 = 0.857 (left: 0.857 8 11)",
+            "operator": "/",
+            "value": 3.0
+        },
+        "8 - 6 = 2 (left: 2 7 11)\n": {
+            "node_id": "n1541",
+            "parent": "6 7 8 11",
+            "step": 1,
+            "last_formula": "8 - 6 = 2 (left: 2 7 11)",
+            "operator": "-",
+            "value": 1.002
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n4 + 6 = 10 (left: 8 10)\n": {
+            "node_id": "n1542",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n",
+            "step": 2,
+            "last_formula": "4 + 6 = 10 (left: 8 10)",
+            "operator": "+",
+            "value": 1.001
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n6 + 4 = 10 (left: 8 10)\n": {
+            "node_id": "n1543",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n",
+            "step": 2,
+            "last_formula": "6 + 4 = 10 (left: 8 10)",
+            "operator": "+",
+            "value": 1.001
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n": {
+            "node_id": "n1544",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n",
+            "step": 2,
+            "last_formula": "4 - 6 = -2 (left: -2 8)",
+            "operator": "-",
+            "value": 22.0
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n6 - 4 = 2 (left: 2 8)\n": {
+            "node_id": "n1545",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n",
+            "step": 2,
+            "last_formula": "6 - 4 = 2 (left: 2 8)",
+            "operator": "-",
+            "value": 3.0
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n4 * 6 = 24 (left: 8 24)\n": {
+            "node_id": "n1546",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n",
+            "step": 2,
+            "last_formula": "4 * 6 = 24 (left: 8 24)",
+            "operator": "*",
+            "value": 1.002
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n6 * 4 = 24 (left: 8 24)\n": {
+            "node_id": "n1547",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n",
+            "step": 2,
+            "last_formula": "6 * 4 = 24 (left: 8 24)",
+            "operator": "*",
+            "value": 1.002
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n4 / 6 = 0.6667 (left: 0.6667 8)\n": {
+            "node_id": "n1548",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n",
+            "step": 2,
+            "last_formula": "4 / 6 = 0.6667 (left: 0.6667 8)",
+            "operator": "/",
+            "value": 2.001
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n6 / 4 = 1.5 (left: 1.5 8)\n": {
+            "node_id": "n1549",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n",
+            "step": 2,
+            "last_formula": "6 / 4 = 1.5 (left: 1.5 8)",
+            "operator": "/",
+            "value": 1.002
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n6 + 11 = 17 (left: 15 17)\n": {
+            "node_id": "n1550",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "6 + 11 = 17 (left: 15 17)",
+            "operator": "+",
+            "value": 0.003
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n11 - 6 = 5 (left: 5 15)\n": {
+            "node_id": "n1551",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "11 - 6 = 5 (left: 5 15)",
+            "operator": "-",
+            "value": 1.002
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 + 6 = 21 (left: 11 15 21)\n": {
+            "node_id": "n1552",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "15 + 6 = 21 (left: 11 15 21)",
+            "operator": "+",
+            "value": 0.003
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n6 * 11 = 66 (left: 15 66)\n": {
+            "node_id": "n1553",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "6 * 11 = 66 (left: 15 66)",
+            "operator": "*",
+            "value": 0.003
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n11 / 6 = 1.83 (left: 1.83 15)\n": {
+            "node_id": "n1554",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "11 / 6 = 1.83 (left: 1.83 15)",
+            "operator": "/",
+            "value": 2.0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n": {
+            "node_id": "n1555",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "15 - 6 = 9 (left: 9 15)",
+            "operator": "-",
+            "value": 60.0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 11 = 4 (left: 4 15)\n": {
+            "node_id": "n1556",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "15 - 11 = 4 (left: 4 15)",
+            "operator": "-",
+            "value": 3.0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 / 6 = 2.5 (left: 2.5 15)\n": {
+            "node_id": "n1557",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "15 / 6 = 2.5 (left: 2.5 15)",
+            "operator": "/",
+            "value": 2.001
+        },
+        "8 + 7 = 15 (left: 6 11 15)\n6 + 11 = 17 (left: 15 17)\n": {
+            "node_id": "n1558",
+            "parent": "8 + 7 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "6 + 11 = 17 (left: 15 17)",
+            "operator": "+",
+            "value": 0.003
+        },
+        "8 + 7 = 15 (left: 6 11 15)\n6 / 11 = 0.55 (left: 0.55 15)\n": {
+            "node_id": "n1559",
+            "parent": "8 + 7 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "6 / 11 = 0.55 (left: 0.55 15)",
+            "operator": "/",
+            "value": 2.0
+        },
+        "8 + 7 = 15 (left: 6 11 15)\n15 + 6 = 21 (left: 11 21)\n": {
+            "node_id": "n1560",
+            "parent": "8 + 7 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "15 + 6 = 21 (left: 11 21)",
+            "operator": "+",
+            "value": 0.003
+        },
+        "8 + 7 = 15 (left: 6 11 15)\n6 * 11 = 66 (left: 15 66)\n": {
+            "node_id": "n1561",
+            "parent": "8 + 7 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "6 * 11 = 66 (left: 15 66)",
+            "operator": "*",
+            "value": 0.003
+        },
+        "8 + 7 = 15 (left: 6 11 15)\n11 - 6 = 5 (left: 5 15)\n": {
+            "node_id": "n1562",
+            "parent": "8 + 7 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "11 - 6 = 5 (left: 5 15)",
+            "operator": "-",
+            "value": 1.002
+        },
+        "8 + 7 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 11)\n": {
+            "node_id": "n1563",
+            "parent": "8 + 7 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "15 - 6 = 9 (left: 9 11)",
+            "operator": "-",
+            "value": 2.0
+        },
+        "8 + 7 = 15 (left: 6 11 15)\n15 / 6 = 2.5 (left: 2.5 11)\n": {
+            "node_id": "n1564",
+            "parent": "8 + 7 = 15 (left: 6 11 15)\n",
+            "step": 2,
+            "last_formula": "15 / 6 = 2.5 (left: 2.5 11)",
+            "operator": "/",
+            "value": 1.002
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n9 + 15 = 24 (left: 24)\n": {
+            "node_id": "n1565",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n",
+            "step": 3,
+            "last_formula": "9 + 15 = 24 (left: 24)",
+            "operator": "+",
+            "value": 0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n9 * 15 = 135 (left: 135)\n": {
+            "node_id": "n1566",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n",
+            "step": 3,
+            "last_formula": "9 * 15 = 135 (left: 135)",
+            "operator": "*",
+            "value": 0.0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n15 - 9 = 6 (left: 6)\n": {
+            "node_id": "n1567",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n",
+            "step": 3,
+            "last_formula": "15 - 9 = 6 (left: 6)",
+            "operator": "-",
+            "value": 0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n15 / 9 = 1.67 (left: 1.67)\n": {
+            "node_id": "n1568",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n",
+            "step": 3,
+            "last_formula": "15 / 9 = 1.67 (left: 1.67)",
+            "operator": "/",
+            "value": 0.002
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n9 - 15 = -6 (left: -6)\n": {
+            "node_id": "n1569",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n",
+            "step": 3,
+            "last_formula": "9 - 15 = -6 (left: -6)",
+            "operator": "-",
+            "value": 0.002
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n-2 + 8 = 6 (left: 6)\n": {
+            "node_id": "n1570",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n",
+            "step": 3,
+            "last_formula": "-2 + 8 = 6 (left: 6)",
+            "operator": "-",
+            "value": 0
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n-2 * 8 = -16 (left: -16)\n": {
+            "node_id": "n1571",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n",
+            "step": 3,
+            "last_formula": "-2 * 8 = -16 (left: -16)",
+            "operator": "-",
+            "value": 0.0
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n8 - -2 = 10 (left: 10)\n": {
+            "node_id": "n1572",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n",
+            "step": 3,
+            "last_formula": "8 - -2 = 10 (left: 10)",
+            "operator": "-",
+            "value": 0
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n8 / -2 = -4 (left: -4)\n": {
+            "node_id": "n1573",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n",
+            "step": 3,
+            "last_formula": "8 / -2 = -4 (left: -4)",
+            "operator": "/",
+            "value": 0.001
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n6 - 4 = 2 (left: 2 8)\n2 + 8 = 10 (left: 10)\n": {
+            "node_id": "n1574",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n6 - 4 = 2 (left: 2 8)\n",
+            "step": 3,
+            "last_formula": "2 + 8 = 10 (left: 10)",
+            "operator": "+",
+            "value": 0
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n6 - 4 = 2 (left: 2 8)\n2 * 8 = 16 (left: 16)\n": {
+            "node_id": "n1575",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n6 - 4 = 2 (left: 2 8)\n",
+            "step": 3,
+            "last_formula": "2 * 8 = 16 (left: 16)",
+            "operator": "*",
+            "value": 0
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n6 - 4 = 2 (left: 2 8)\n8 - 2 = 6 (left: 6)\n": {
+            "node_id": "n1576",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n6 - 4 = 2 (left: 2 8)\n",
+            "step": 3,
+            "last_formula": "8 - 2 = 6 (left: 6)",
+            "operator": "-",
+            "value": 0
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n6 - 4 = 2 (left: 2 8)\n8 / 2 = 4 (left: 4)\n": {
+            "node_id": "n1577",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n6 - 4 = 2 (left: 2 8)\n",
+            "step": 3,
+            "last_formula": "8 / 2 = 4 (left: 4)",
+            "operator": "/",
+            "value": 0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n15 / 9 = 1.67 (left: 1.67)\n1.67 + 1 = 2.67\n": {
+            "node_id": "n1578",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n15 / 9 = 1.67 (left: 1.67)\n",
+            "step": 4,
+            "last_formula": "1.67 + 1 = 2.67",
+            "operator": "+",
+            "value": 0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n15 / 9 = 1.67 (left: 1.67)\n1.67 - 1 = 0.67\n": {
+            "node_id": "n1579",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n15 / 9 = 1.67 (left: 1.67)\n",
+            "step": 4,
+            "last_formula": "1.67 - 1 = 0.67",
+            "operator": "-",
+            "value": 0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n15 / 9 = 1.67 (left: 1.67)\n1.67 * 1 = 1.67\n": {
+            "node_id": "n1580",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n15 / 9 = 1.67 (left: 1.67)\n",
+            "step": 4,
+            "last_formula": "1.67 * 1 = 1.67",
+            "operator": "*",
+            "value": 0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n15 / 9 = 1.67 (left: 1.67)\n1.67 / 1 = 1.67\n": {
+            "node_id": "n1581",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n15 / 9 = 1.67 (left: 1.67)\n",
+            "step": 4,
+            "last_formula": "1.67 / 1 = 1.67",
+            "operator": "/",
+            "value": 0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n9 - 15 = -6 (left: -6)\n-6 + 8 = 2 (left: 8 2)\n": {
+            "node_id": "n1582",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n9 - 15 = -6 (left: -6)\n",
+            "step": 4,
+            "last_formula": "-6 + 8 = 2 (left: 8 2)",
+            "operator": "-",
+            "value": 3.0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n9 - 15 = -6 (left: -6)\n-6 - 8 = -14 (left: -14)\n": {
+            "node_id": "n1583",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n9 - 15 = -6 (left: -6)\n",
+            "step": 4,
+            "last_formula": "-6 - 8 = -14 (left: -14)",
+            "operator": "-",
+            "value": 0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n9 - 15 = -6 (left: -6)\n-6 * 8 = -48 (left: -48)\n": {
+            "node_id": "n1584",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n9 - 15 = -6 (left: -6)\n",
+            "step": 4,
+            "last_formula": "-6 * 8 = -48 (left: -48)",
+            "operator": "-",
+            "value": 0
+        },
+        "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n9 - 15 = -6 (left: -6)\n-6 / 8 = -0.75 (left: -0.75)\n": {
+            "node_id": "n1585",
+            "parent": "7 + 8 = 15 (left: 6 11 15)\n15 - 6 = 9 (left: 9 15)\n9 - 15 = -6 (left: -6)\n",
+            "step": 4,
+            "last_formula": "-6 / 8 = -0.75 (left: -0.75)",
+            "operator": "-",
+            "value": 0
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n8 / -2 = -4 (left: -4)\n-4 + 2 = -2 (left: -2)\n": {
+            "node_id": "n1586",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n8 / -2 = -4 (left: -4)\n",
+            "step": 4,
+            "last_formula": "-4 + 2 = -2 (left: -2)",
+            "operator": "-",
+            "value": 0.001
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n8 / -2 = -4 (left: -4)\n-4 / 2 = -2 (left: -2)\n": {
+            "node_id": "n1587",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n8 / -2 = -4 (left: -4)\n",
+            "step": 4,
+            "last_formula": "-4 / 2 = -2 (left: -2)",
+            "operator": "-",
+            "value": 0.001
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n8 / -2 = -4 (left: -4)\n-4 - 2 = -6 (left: -6)\n": {
+            "node_id": "n1588",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n8 / -2 = -4 (left: -4)\n",
+            "step": 4,
+            "last_formula": "-4 - 2 = -6 (left: -6)",
+            "operator": "-",
+            "value": 0.002
+        },
+        "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n8 / -2 = -4 (left: -4)\n-4 * 2 = -8 (left: -8)\n": {
+            "node_id": "n1589",
+            "parent": "11 - 7 = 4 (left: 4 6 8)\n4 - 6 = -2 (left: -2 8)\n8 / -2 = -4 (left: -4)\n",
+            "step": 4,
+            "last_formula": "-4 * 2 = -8 (left: -8)",
+            "operator": "-",
+            "value": 0.0
+        }
+    },
+    "edges": {}
+}

@@ -1,0 +1,603 @@
+{
+    "nodes": {
+        "3 4 4 13": {
+            "node_id": "n66",
+            "value": "",
+            "parent": "null",
+            "step": 0
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n": {
+            "node_id": "n67",
+            "parent": "3 4 4 13",
+            "step": 1,
+            "last_formula": "3 + 4 = 7 (left: 4 7 13)",
+            "operator": "+",
+            "value": 60.0
+        },
+        "4 / 3 = 1.33333 (left: 1.33333 4 13)\n": {
+            "node_id": "n68",
+            "parent": "3 4 4 13",
+            "step": 1,
+            "last_formula": "4 / 3 = 1.33333 (left: 1.33333 4 13)",
+            "operator": "/",
+            "value": 2.001
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n": {
+            "node_id": "n69",
+            "parent": "3 4 4 13",
+            "step": 1,
+            "last_formula": "13 + 3 = 16 (left: 4 4 16)",
+            "operator": "+",
+            "value": 60.0
+        },
+        "3 * 4 = 12 (left: 4 12 13)\n": {
+            "node_id": "n70",
+            "parent": "3 4 4 13",
+            "step": 1,
+            "last_formula": "3 * 4 = 12 (left: 4 12 13)",
+            "operator": "*",
+            "value": 1.002
+        },
+        "4 - 3 = 1 (left: 1 4 13)\n": {
+            "node_id": "n71",
+            "parent": "3 4 4 13",
+            "step": 1,
+            "last_formula": "4 - 3 = 1 (left: 1 4 13)",
+            "operator": "-",
+            "value": 1.002
+        },
+        "13 - 4 = 9 (left: 3 4 9)\n": {
+            "node_id": "n72",
+            "parent": "3 4 4 13",
+            "step": 1,
+            "last_formula": "13 - 4 = 9 (left: 3 4 9)",
+            "operator": "-",
+            "value": 60.0
+        },
+        "13 / 3 = 4.33333 (left: 4.33333 4 13)\n": {
+            "node_id": "n73",
+            "parent": "3 4 4 13",
+            "step": 1,
+            "last_formula": "13 / 3 = 4.33333 (left: 4.33333 4 13)",
+            "operator": "/",
+            "value": 3.0
+        },
+        "13 - 3 = 10 (left: 4 4 10)\n": {
+            "node_id": "n74",
+            "parent": "3 4 4 13",
+            "step": 1,
+            "last_formula": "13 - 3 = 10 (left: 4 4 10)",
+            "operator": "-",
+            "value": 60.0
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n4 + 7 = 11 (left: 11 13)\n": {
+            "node_id": "n75",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n",
+            "step": 2,
+            "last_formula": "4 + 7 = 11 (left: 11 13)",
+            "operator": "+",
+            "value": 40.001
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n7 - 4 = 3 (left: 3 13)\n": {
+            "node_id": "n76",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n",
+            "step": 2,
+            "last_formula": "7 - 4 = 3 (left: 3 13)",
+            "operator": "-",
+            "value": 1.002
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n13 - 4 = 9 (left: 7 9)\n": {
+            "node_id": "n77",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n",
+            "step": 2,
+            "last_formula": "13 - 4 = 9 (left: 7 9)",
+            "operator": "-",
+            "value": 1.002
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n4 * 7 = 28 (left: 28 13)\n": {
+            "node_id": "n78",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n",
+            "step": 2,
+            "last_formula": "4 * 7 = 28 (left: 28 13)",
+            "operator": "*",
+            "value": 0.003
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n7 / 4 = 1.75 (left: 1.75 13)\n": {
+            "node_id": "n79",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n",
+            "step": 2,
+            "last_formula": "7 / 4 = 1.75 (left: 1.75 13)",
+            "operator": "/",
+            "value": 1.001
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n13 + 4 = 17 (left: 7 17)\n": {
+            "node_id": "n80",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n",
+            "step": 2,
+            "last_formula": "13 + 4 = 17 (left: 7 17)",
+            "operator": "+",
+            "value": 60.0
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n13 / 4 = 3.25 (left: 3.25 7)\n": {
+            "node_id": "n81",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n",
+            "step": 2,
+            "last_formula": "13 / 4 = 3.25 (left: 3.25 7)",
+            "operator": "/",
+            "value": 3.0
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n13 - 7 = 6 (left: 4 6)\n": {
+            "node_id": "n82",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n",
+            "step": 2,
+            "last_formula": "13 - 7 = 6 (left: 4 6)",
+            "operator": "-",
+            "value": 3.0
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n7 - 13 = -6 (left: -6)\n": {
+            "node_id": "n83",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n",
+            "step": 2,
+            "last_formula": "7 - 13 = -6 (left: -6)",
+            "operator": "-",
+            "value": 0.002
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n": {
+            "node_id": "n84",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n",
+            "step": 2,
+            "last_formula": "4 + 4 = 8 (left: 8 16)",
+            "operator": "+",
+            "value": 60.0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 * 4 = 16 (left: 4 16)\n": {
+            "node_id": "n85",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n",
+            "step": 2,
+            "last_formula": "4 * 4 = 16 (left: 4 16)",
+            "operator": "*",
+            "value": 3.0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n16 / 4 = 4 (left: 4 4)\n": {
+            "node_id": "n86",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n",
+            "step": 2,
+            "last_formula": "16 / 4 = 4 (left: 4 4)",
+            "operator": "/",
+            "value": 3.0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 - 4 = 0 (left: 16)\n": {
+            "node_id": "n87",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n",
+            "step": 2,
+            "last_formula": "4 - 4 = 0 (left: 16)",
+            "operator": "-",
+            "value": 0
+        },
+        "13 - 4 = 9 (left: 3 4 9)\n3 + 4 = 7 (left: 7 9)\n": {
+            "node_id": "n88",
+            "parent": "13 - 4 = 9 (left: 3 4 9)\n",
+            "step": 2,
+            "last_formula": "3 + 4 = 7 (left: 7 9)",
+            "operator": "+",
+            "value": 1.002
+        },
+        "13 - 4 = 9 (left: 3 4 9)\n4 / 3 = 1.333 (left: 1.333 9)\n": {
+            "node_id": "n89",
+            "parent": "13 - 4 = 9 (left: 3 4 9)\n",
+            "step": 2,
+            "last_formula": "4 / 3 = 1.333 (left: 1.333 9)",
+            "operator": "/",
+            "value": 2.001
+        },
+        "13 - 4 = 9 (left: 3 4 9)\n9 + 3 = 12 (left: 4 9 12)\n": {
+            "node_id": "n90",
+            "parent": "13 - 4 = 9 (left: 3 4 9)\n",
+            "step": 2,
+            "last_formula": "9 + 3 = 12 (left: 4 9 12)",
+            "operator": "+",
+            "value": 3.0
+        },
+        "13 - 4 = 9 (left: 3 4 9)\n3 * 4 = 12 (left: 9 12)\n": {
+            "node_id": "n91",
+            "parent": "13 - 4 = 9 (left: 3 4 9)\n",
+            "step": 2,
+            "last_formula": "3 * 4 = 12 (left: 9 12)",
+            "operator": "*",
+            "value": 0.003
+        },
+        "13 - 4 = 9 (left: 3 4 9)\n9 - 3 = 6 (left: 6 9)\n": {
+            "node_id": "n92",
+            "parent": "13 - 4 = 9 (left: 3 4 9)\n",
+            "step": 2,
+            "last_formula": "9 - 3 = 6 (left: 6 9)",
+            "operator": "-",
+            "value": 2.001
+        },
+        "13 - 4 = 9 (left: 3 4 9)\n9 / 3 = 3 (left: 3 9)\n": {
+            "node_id": "n93",
+            "parent": "13 - 4 = 9 (left: 3 4 9)\n",
+            "step": 2,
+            "last_formula": "9 / 3 = 3 (left: 3 9)",
+            "operator": "/",
+            "value": 1.001
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n13 + 4 = 17 (left: 7 17)\n7 + 17 = 24 (left: 24)\n": {
+            "node_id": "n94",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n13 + 4 = 17 (left: 7 17)\n",
+            "step": 3,
+            "last_formula": "7 + 17 = 24 (left: 24)",
+            "operator": "+",
+            "value": 0
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n13 + 4 = 17 (left: 7 17)\n7 * 17 = 119 (left: 119)\n": {
+            "node_id": "n95",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n13 + 4 = 17 (left: 7 17)\n",
+            "step": 3,
+            "last_formula": "7 * 17 = 119 (left: 119)",
+            "operator": "*",
+            "value": 0.0
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n13 + 4 = 17 (left: 7 17)\n17 - 7 = 10 (left: 10)\n": {
+            "node_id": "n96",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n13 + 4 = 17 (left: 7 17)\n",
+            "step": 3,
+            "last_formula": "17 - 7 = 10 (left: 10)",
+            "operator": "-",
+            "value": 0
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n13 + 4 = 17 (left: 7 17)\n17 / 7 = 2.4285714285714284 (left: 2.4285714285714284)\n": {
+            "node_id": "n97",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n13 + 4 = 17 (left: 7 17)\n",
+            "step": 3,
+            "last_formula": "17 / 7 = 2.4285714285714284 (left: 2.4285714285714284)",
+            "operator": "/",
+            "value": 0.0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 + 16 = 24 (left: 16 24)\n": {
+            "node_id": "n98",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n",
+            "step": 3,
+            "last_formula": "8 + 16 = 24 (left: 16 24)",
+            "operator": "+",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 / 16 = 0.5 (left: 0.5 16)\n": {
+            "node_id": "n99",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n",
+            "step": 3,
+            "last_formula": "8 / 16 = 0.5 (left: 0.5 16)",
+            "operator": "/",
+            "value": 22.0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n16 + 8 = 24 (left: 8 24)\n": {
+            "node_id": "n100",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n",
+            "step": 3,
+            "last_formula": "16 + 8 = 24 (left: 8 24)",
+            "operator": "+",
+            "value": 1.002
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n": {
+            "node_id": "n101",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n",
+            "step": 3,
+            "last_formula": "8 * 16 = 128 (left: 16 128)",
+            "operator": "*",
+            "value": 21.001
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n16 - 8 = 8 (left: 8 8)\n": {
+            "node_id": "n102",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n",
+            "step": 3,
+            "last_formula": "16 - 8 = 8 (left: 8 8)",
+            "operator": "-",
+            "value": 3.0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n16 / 8 = 2 (left: 2 8)\n": {
+            "node_id": "n103",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n",
+            "step": 3,
+            "last_formula": "16 / 8 = 2 (left: 2 8)",
+            "operator": "/",
+            "value": 3.0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n16 - 16 = 0 (left: 8 0)\n": {
+            "node_id": "n104",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n",
+            "step": 3,
+            "last_formula": "16 - 16 = 0 (left: 8 0)",
+            "operator": "-",
+            "value": 40.0
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n4 + 7 = 11 (left: 11 13)\n11 + 13 = 24 (left: 24)\n": {
+            "node_id": "n105",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n4 + 7 = 11 (left: 11 13)\n",
+            "step": 3,
+            "last_formula": "11 + 13 = 24 (left: 24)",
+            "operator": "+",
+            "value": 0
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n4 + 7 = 11 (left: 11 13)\n11 - 13 = -2 (left: -2)\n": {
+            "node_id": "n106",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n4 + 7 = 11 (left: 11 13)\n",
+            "step": 3,
+            "last_formula": "11 - 13 = -2 (left: -2)",
+            "operator": "-",
+            "value": 0.001
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n4 + 7 = 11 (left: 11 13)\n11 * 13 = 143 (left: 143)\n": {
+            "node_id": "n107",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n4 + 7 = 11 (left: 11 13)\n",
+            "step": 3,
+            "last_formula": "11 * 13 = 143 (left: 143)",
+            "operator": "*",
+            "value": 0.0
+        },
+        "3 + 4 = 7 (left: 4 7 13)\n4 + 7 = 11 (left: 11 13)\n11 / 13 \u2248 0.846 (left: 0.846)\n": {
+            "node_id": "n108",
+            "parent": "3 + 4 = 7 (left: 4 7 13)\n4 + 7 = 11 (left: 11 13)\n",
+            "step": 3,
+            "last_formula": "11 / 13 \u2248 0.846 (left: 0.846)",
+            "operator": "/",
+            "value": 0.001
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n16 - 16 = 0 (left: 8 0)\n8 + 0 = 8 (left: 0 8)\n": {
+            "node_id": "n109",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n16 - 16 = 0 (left: 8 0)\n",
+            "step": 4,
+            "last_formula": "8 + 0 = 8 (left: 0 8)",
+            "operator": "+",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n16 - 16 = 0 (left: 8 0)\n8 - 0 = 8 (left: 0 8)\n": {
+            "node_id": "n110",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n16 - 16 = 0 (left: 8 0)\n",
+            "step": 4,
+            "last_formula": "8 - 0 = 8 (left: 0 8)",
+            "operator": "-",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n16 - 16 = 0 (left: 8 0)\n8 * 0 = 0 (left: 0 0)\n": {
+            "node_id": "n111",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n16 - 16 = 0 (left: 8 0)\n",
+            "step": 4,
+            "last_formula": "8 * 0 = 0 (left: 0 0)",
+            "operator": "*",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n16 - 16 = 0 (left: 8 0)\n8 / 0 is undefined\n": {
+            "node_id": "n112",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n16 - 16 = 0 (left: 8 0)\n",
+            "step": 4,
+            "last_formula": "8 / 0 is undefined",
+            "operator": "/",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 / 16 = 0.5 (left: 0.5 16)\n0.5 + 16 = 16.5 (left: 16.5)\n": {
+            "node_id": "n113",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 / 16 = 0.5 (left: 0.5 16)\n",
+            "step": 4,
+            "last_formula": "0.5 + 16 = 16.5 (left: 16.5)",
+            "operator": "+",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 / 16 = 0.5 (left: 0.5 16)\n16 / 0.5 = 32 (left: 32)\n": {
+            "node_id": "n114",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 / 16 = 0.5 (left: 0.5 16)\n",
+            "step": 4,
+            "last_formula": "16 / 0.5 = 32 (left: 32)",
+            "operator": "/",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 / 16 = 0.5 (left: 0.5 16)\n16 - 0.5 = 15.5 (left: 15.5)\n": {
+            "node_id": "n115",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 / 16 = 0.5 (left: 0.5 16)\n",
+            "step": 4,
+            "last_formula": "16 - 0.5 = 15.5 (left: 15.5)",
+            "operator": "-",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 / 16 = 0.5 (left: 0.5 16)\n0.5 * 16 = 8 (left: 8)\n": {
+            "node_id": "n116",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 / 16 = 0.5 (left: 0.5 16)\n",
+            "step": 4,
+            "last_formula": "0.5 * 16 = 8 (left: 8)",
+            "operator": "*",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n16 + 128 = 144 (left: 128 144)\n": {
+            "node_id": "n117",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "16 + 128 = 144 (left: 128 144)",
+            "operator": "+",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n128 / 16 = 8 (left: 8 128)\n": {
+            "node_id": "n118",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "128 / 16 = 8 (left: 8 128)",
+            "operator": "/",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n16 * 128 = 2048 (left: 128 2048)\n": {
+            "node_id": "n119",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "16 * 128 = 2048 (left: 128 2048)",
+            "operator": "*",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n128 - 16 = 112 (left: 112 128)\n": {
+            "node_id": "n120",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "128 - 16 = 112 (left: 112 128)",
+            "operator": "-",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\nInput: 5 5 5 5\n": {
+            "node_id": "n121",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "Input: 5 5 5 5",
+            "operator": "",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\nPossible next steps:\n": {
+            "node_id": "n122",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "Possible next steps:",
+            "operator": "",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 + 5 = 10 (left: 5 10 5 5)\n": {
+            "node_id": "n123",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 + 5 = 10 (left: 5 10 5 5)",
+            "operator": "+",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 / 5 = 1 (left: 1 5 5 5)\n": {
+            "node_id": "n124",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 / 5 = 1 (left: 1 5 5 5)",
+            "operator": "/",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 * 5 = 25 (left: 5 5 25)\n": {
+            "node_id": "n125",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 * 5 = 25 (left: 5 5 25)",
+            "operator": "*",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 - 5 = 0 (left: 0 5 5 5)\n": {
+            "node_id": "n126",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 - 5 = 0 (left: 0 5 5 5)",
+            "operator": "-",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 + 5 + 5 = 15 (left: 5 5 15)\n": {
+            "node_id": "n127",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 + 5 + 5 = 15 (left: 5 5 15)",
+            "operator": "+",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 / 5 + 5 = 6 (left: 6 5 5)\n": {
+            "node_id": "n128",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 / 5 + 5 = 6 (left: 6 5 5)",
+            "operator": "/",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 + 5 / 5 = 6 (left: 5 6 5)\n": {
+            "node_id": "n129",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 + 5 / 5 = 6 (left: 5 6 5)",
+            "operator": "+",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 * 5 + 5 = 30 (left: 5 5 30)\n": {
+            "node_id": "n130",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 * 5 + 5 = 30 (left: 5 5 30)",
+            "operator": "*",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 + 5 * 5 = 30 (left: 5 25 30)\n": {
+            "node_id": "n131",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 + 5 * 5 = 30 (left: 5 25 30)",
+            "operator": "+",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 - 5 + 5 = 5 (left: 5 5 5)\n": {
+            "node_id": "n132",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 - 5 + 5 = 5 (left: 5 5 5)",
+            "operator": "-",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 + 5 - 5 = 5 (left: 5 5 5)\n": {
+            "node_id": "n133",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 + 5 - 5 = 5 (left: 5 5 5)",
+            "operator": "+",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 / 5 - 5 = -4 (left: -4 5 5)\n": {
+            "node_id": "n134",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 / 5 - 5 = -4 (left: -4 5 5)",
+            "operator": "/",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n5 - 5 / 5 = 4 (left: 4 5 5)\n": {
+            "node_id": "n135",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "5 - 5 / 5 = 4 (left: 4 5 5)",
+            "operator": "-",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\nInput: 10 2\n": {
+            "node_id": "n136",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "Input: 10 2",
+            "operator": "",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n10 + 2 = 12 (left: 12)\n": {
+            "node_id": "n137",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "10 + 2 = 12 (left: 12)",
+            "operator": "+",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n10 / 2 = 5 (left: 5)\n": {
+            "node_id": "n138",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "10 / 2 = 5 (left: 5)",
+            "operator": "/",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n10 * 2 = 20 (left: 20)\n": {
+            "node_id": "n139",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "10 * 2 = 20 (left: 20)",
+            "operator": "*",
+            "value": 0
+        },
+        "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n10 - 2 = 8 (left: 8)\n": {
+            "node_id": "n140",
+            "parent": "13 + 3 = 16 (left: 4 4 16)\n4 + 4 = 8 (left: 8 16)\n8 * 16 = 128 (left: 16 128)\n",
+            "step": 4,
+            "last_formula": "10 - 2 = 8 (left: 8)",
+            "operator": "-",
+            "value": 0
+        }
+    },
+    "edges": {}
+}
